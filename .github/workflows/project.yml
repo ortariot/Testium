@@ -62,4 +62,4 @@ jobs:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USERNAME }}
           password: ${{ secrets.SSH_PASSWORD }}
-          script: expect /opt/cicd_test/deploy.exp
+          script: expect /opt/djprj/deploy.exp
